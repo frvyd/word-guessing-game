@@ -22,7 +22,7 @@ while True:
     print("#" * 80)
 
     country_names = get_country_names()
-    word = choice(country_names).upper()
+    word = choice(country_names).upper()              # Recognizes all letters as uppercase
     lettercount = len(word)
     print("\nThe word has {} letters.".format(lettercount))
 
