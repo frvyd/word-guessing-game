@@ -66,7 +66,7 @@ while True:
         
     if experiment == 0:
         print("You have no rights left. You've failed.")
-        print("KThe word: {}".format(word))
+        print("The word: {}".format(word))
 
     tocontinue = input("Press 'q' to exit the game or any key to continue: ")
     tocontinue = tocontinue.lower()
